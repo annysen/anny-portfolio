@@ -9,7 +9,7 @@ const About = () => {
       <Skill />
 
       {/* a summary of resume  */}
-      <div className="w-3/4 my-5 mx-auto">
+      <div className="w-4/5 my-5 md:my-0 mx-auto">
         <section>
           <h2 className="text-center text-3xl font-bold underline text-violet-900">
             A summary of My Resume

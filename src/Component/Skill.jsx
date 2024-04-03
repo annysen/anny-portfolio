@@ -1,7 +1,7 @@
 const Skill = () => {
   return (
     <div>
-      <div className="w-3/4 my-5 mx-auto">
+      <div className="w-4/5 my-5 mx-auto">
         <h1 className="text-center text-3xl font-bold underline text-violet-900">
           My Skills
         </h1>
@@ -11,7 +11,7 @@ const Skill = () => {
           to find out more about my experience? Check out my online resume and
           project portfolio.
         </p>
-        <ul className="grid grid-cols-3 place-items-center gap-5 text-xl font-bold border rounded p-5">
+        <ul className="flex flex-wrap gap-5 justify-center text-xl font-bold border rounded p-5">
           <li>1. React js</li>
           <li>2. ES6</li>
           <li>3. Tailwind</li>

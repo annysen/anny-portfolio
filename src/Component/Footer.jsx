@@ -9,15 +9,15 @@ const Footer = () => {
     <footer className="bg-gray-900 text-white p-5">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 px-5">
         <div>
-          <h1 className="font-bold text-xl">Anny Sen</h1>
-          <p className="text-gray-300 mt-2">Front End Developer</p>
-          <div className="flex gap-10 mt-5">
+          {/* <h1 className="font-bold text-xl">Anny Sen</h1>
+          <p className="text-gray-300 mt-2">Front End Developer</p> */}
+          <div className="flex gap-10 ">
             <i className="fa-brands fa-facebook text-2xl"></i>
             <i className="fa-brands fa-square-twitter text-2xl"></i>
             <i className="fa-brands fa-square-instagram text-2xl"></i>
           </div>
         </div>
-        <div className="flex flex-col">
+        <div className="flex  gap-10 justify-center md:hidden">
           <Link className="text-gray-300 mt-2" to="/">
             Home
           </Link>
@@ -34,7 +34,7 @@ const Footer = () => {
           </Link>
         </div>
 
-        <div className="flex flex-col">
+        {/* <div className="flex flex-col">
           <h1 className="font-bold text-xl">Contact</h1>
           <div className="flex  items-center gap-2">
             <HomeIcon className="h-6 w-6 " />
@@ -50,11 +50,11 @@ const Footer = () => {
             <ChatBubbleBottomCenterIcon className="h-6 w-6 " />
             <p className="text-gray-300 mt-2">+880 1882 779729</p>
           </div>
-        </div>
+        </div> */}
       </div>
 
       {/* using a bar  */}
-      <div className="h-px bg-gray-300 my-6"></div>
+      <div className="h-px bg-gray-300 my-6 md:hidden"></div>
 
       <div className="text-center">
         <small>©2024 Anny Sen. All Rights Reserved</small>
