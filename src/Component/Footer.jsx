@@ -11,11 +11,6 @@ const Footer = () => {
         <div>
           {/* <h1 className="font-bold text-xl">Anny Sen</h1>
           <p className="text-gray-300 mt-2">Front End Developer</p> */}
-          <div className="flex gap-10 ">
-            <i className="fa-brands fa-facebook text-2xl"></i>
-            <i className="fa-brands fa-square-twitter text-2xl"></i>
-            <i className="fa-brands fa-square-instagram text-2xl"></i>
-          </div>
         </div>
         <div className="flex  gap-10 justify-center md:hidden">
           <Link className="text-gray-300 mt-2" to="/">
