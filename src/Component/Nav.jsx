@@ -32,7 +32,7 @@ const Nav = () => {
         </NavLink>
         <NavLink
           className="mx-5 hover:text-violet-900 hover:font-bold text-gray-600"
-          to="resume"
+          to="https://drive.google.com/file/d/1WQdQHjpc9NUOEr1ZRNTQXXsIhdxIe0OR/view?usp=sharing"
         >
           My Resume
         </NavLink>
@@ -66,7 +66,10 @@ const Nav = () => {
                 <NavLink className=" text-white" to="/about">
                   About
                 </NavLink>
-                <NavLink className=" text-white" to="resume">
+                <NavLink
+                  className=" text-white"
+                  to="https://drive.google.com/file/d/1WQdQHjpc9NUOEr1ZRNTQXXsIhdxIe0OR/view?usp=sharing"
+                >
                   My Resume
                 </NavLink>
                 <NavLink className="text-white" to="/contact">
