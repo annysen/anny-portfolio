@@ -1,10 +1,6 @@
 import { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
-import {
-  Bars3BottomRightIcon,
-  Bars3Icon,
-  XMarkIcon,
-} from "@heroicons/react/24/solid";
+import { NavLink } from "react-router-dom";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
