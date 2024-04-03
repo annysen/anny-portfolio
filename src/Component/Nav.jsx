@@ -29,6 +29,7 @@ const Nav = () => {
         <NavLink
           className="mx-5 hover:text-violet-900 hover:font-bold text-gray-600"
           to="https://drive.google.com/file/d/1WQdQHjpc9NUOEr1ZRNTQXXsIhdxIe0OR/view?usp=sharing"
+          target="_blank"
         >
           My Resume
         </NavLink>
