@@ -10,7 +10,7 @@ const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="flex justify-around items-center bg-gray-100 pt-5 px-5 ">
+    <nav className="flex justify-around items-center bg-gray-100 py-5 md:py-10 px-5 ">
       {/* <NavLink to="/">
         <h1 className="text-2xl md:text-5xl text-violet-900 font-extrabold">
           Anny Sen

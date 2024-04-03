@@ -6,7 +6,7 @@ import {
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white p-10">
+    <footer className="bg-gray-900 text-white p-5">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 px-5">
         <div>
           <h1 className="font-bold text-xl">Anny Sen</h1>
@@ -21,8 +21,8 @@ const Footer = () => {
           <Link className="text-gray-300 mt-2" to="/">
             Home
           </Link>
-          <Link className="text-gray-300 mt-2 " to="/work">
-            Work
+          <Link className="text-gray-300 mt-2 " to="/about">
+            About
           </Link>
 
           <Link
