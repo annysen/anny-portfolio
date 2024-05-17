@@ -17,7 +17,7 @@ const Skill = () => {
           <li>3. Tailwind</li>
           <li>4. Github</li>
           <li>5. VS Code</li>
-          <li>6. Figma</li>
+          <li>6. Firebase Authentication</li>
         </ul>
       </div>
     </div>

@@ -8,7 +8,7 @@ const Layout = () => {
     <div className="max-w-7xl mx-auto">
       <Nav />
 
-      <div className="min-h-[calc(100vh-350px)]">
+      <div className="min-h-[calc(100vh-20%)]">
         <Outlet />
       </div>
       <Footer />

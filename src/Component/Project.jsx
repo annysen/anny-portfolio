@@ -4,7 +4,7 @@ const Project = () => {
   return (
     <div className="mt-5 border p-5 rounded">
       <h3 className="font-bold text-2xl underline text-center">Projects</h3>
-      <div className="flex flex-col md:flex-row justify-between  gap-10">
+      <div className="flex flex-col md:flex-row justify-between gap-10">
         <div className="my-5">
           <p className="text-xl font-bold text-gray-900">1. Nextpage</p>
           <p className="text-lg mt-2 font-bold text-gray-700">

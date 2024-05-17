@@ -7,7 +7,7 @@ const Nav = () => {
 
   return (
     <>
-      <nav className="flex justify-between items-center  py-5 md:py-10   bg-gray-100 px-5 md:px-40  ">
+      <nav className="flex justify-between items-center  py-5 md:py-10  mx-auto bg-gray-100 px-5 md:px-40  ">
         <NavLink to="/">
           <h1 className="text-2xl md:text-5xl text-violet-900 font-extrabold">
             Anny Sen
@@ -29,7 +29,7 @@ const Nav = () => {
           </NavLink>
           <NavLink
             className="mx-5 hover:text-violet-900 hover:font-bold text-gray-600"
-            to="https://drive.google.com/file/d/1WQdQHjpc9NUOEr1ZRNTQXXsIhdxIe0OR/view?usp=sharing"
+            to="https://drive.google.com/file/d/1ZNyXjvTwwPckqtQaYs2fL-s8ZQVZm3CC/view?usp=sharing"
             target="_blank"
           >
             My Resume
@@ -66,7 +66,7 @@ const Nav = () => {
                   </NavLink>
                   <NavLink
                     className=" text-white"
-                    to="https://drive.google.com/file/d/1WQdQHjpc9NUOEr1ZRNTQXXsIhdxIe0OR/view?usp=sharing"
+                    to="https://drive.google.com/file/d/1ZNyXjvTwwPckqtQaYs2fL-s8ZQVZm3CC/view?usp=sharing"
                   >
                     My Resume
                   </NavLink>
